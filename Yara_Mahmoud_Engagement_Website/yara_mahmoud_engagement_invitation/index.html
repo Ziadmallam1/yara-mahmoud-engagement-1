@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#efe4d4" />
+  <title>Yara & Mahmoud — Engagement Invitation</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="locked">
+  <div class="noise"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- Animated intro -->
+  <section class="intro" id="intro">
+    <div class="intro-orb orb-1"></div>
+    <div class="intro-orb orb-2"></div>
+    <div class="intro-ring ring-1"></div>
+    <div class="intro-ring ring-2"></div>
+
+    <div class="intro-content">
+      <p class="eyebrow intro-eyebrow">YOU'RE INVITED</p>
+      <h1 class="intro-title">
+        <span>Yara</span>
+        <span class="ampersand">&</span>
+        <span>Mahmoud</span>
+      </h1>
+      <p class="intro-subtitle">A new chapter begins.</p>
+
+      <button class="enter-btn" id="enterBtn">
+        <span>OPEN INVITATION</span>
+        <span class="btn-arrow">↗</span>
+      </button>
+
+      <p class="tap-hint">Tap to enter</p>
+    </div>
+  </section>
+
+  <!-- Decorative background -->
+  <div class="bg-shape bg-shape-1"></div>
+  <div class="bg-shape bg-shape-2"></div>
+  <div class="bg-lines"></div>
+
+  <!-- Music control -->
+  <button class="music-btn" id="musicBtn" aria-label="Toggle music" title="Music">
+    <span class="music-bars">
+      <i></i><i></i><i></i><i></i>
+    </span>
+    <span class="music-label">Music</span>
+  </button>
+
+  <audio id="bgMusic" loop preload="none">
+    <source src="assets/layla-di-amr-diab.mp3" type="audio/mpeg">
+  </audio>
+
+  <main id="mainContent">
+    <!-- Hero -->
+    <section class="hero section">
+      <div class="hero-glass reveal">
+        <div class="hero-topline">
+          <span>ENGAGEMENT</span>
+          <span class="tiny-dot"></span>
+          <span>17.10.2026</span>
+        </div>
+
+        <p class="eyebrow">TOGETHER WITH THEIR FAMILIES</p>
+
+        <h2 class="couple-names">
+          <span class="name name-left">Yara</span>
+          <span class="hero-and">&</span>
+          <span class="name name-right">Mahmoud</span>
+        </h2>
+
+        <p class="hero-copy">
+          request the pleasure of your company as they celebrate
+          the beginning of their forever.
+        </p>
+
+        <div class="date-card">
+          <span class="day">SATURDAY</span>
+          <span class="date-number">17</span>
+          <span class="month">OCTOBER 2026</span>
+          <span class="time">AT 7:00 PM</span>
+        </div>
+
+        <a class="primary-btn magnetic" href="#details">
+          <span>VIEW DETAILS</span>
+          <span>↓</span>
+        </a>
+      </div>
+
+      <div class="scroll-indicator">
+        <span>SCROLL</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- Message -->
+    <section class="statement section">
+      <div class="statement-inner reveal">
+        <p class="section-kicker">ONE BEAUTIFUL NIGHT</p>
+        <h3>
+          Join us as we celebrate<br>
+          <em>love, laughter & the start of forever.</em>
+        </h3>
+        <p class="statement-copy">
+          Your presence would make this evening even more special.
+        </p>
+      </div>
+    </section>
+
+    <!-- Countdown -->
+    <section class="countdown-section section">
+      <div class="countdown-shell reveal">
+        <div class="countdown-header">
+          <p class="section-kicker">SAVE THE DATE</p>
+          <h3>Counting down to our night</h3>
+        </div>
+
+        <div class="countdown" id="countdown">
+          <div class="countdown-item">
+            <span class="count-num" id="days">00</span>
+            <span class="count-label">DAYS</span>
+          </div>
+          <div class="count-divider">:</div>
+          <div class="countdown-item">
+            <span class="count-num" id="hours">00</span>
+            <span class="count-label">HOURS</span>
+          </div>
+          <div class="count-divider">:</div>
+          <div class="countdown-item">
+            <span class="count-num" id="minutes">00</span>
+            <span class="count-label">MINUTES</span>
+          </div>
+          <div class="count-divider">:</div>
+          <div class="countdown-item">
+            <span class="count-num" id="seconds">00</span>
+            <span class="count-label">SECONDS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Details -->
+    <section class="details section" id="details">
+      <div class="details-card reveal">
+        <div class="details-number">01</div>
+        <p class="section-kicker">WHEN</p>
+        <h3>Saturday<br>17 October 2026</h3>
+        <p>7:00 PM</p>
+      </div>
+
+      <div class="details-card reveal">
+        <div class="details-number">02</div>
+        <p class="section-kicker">WHERE</p>
+        <h3>Rotana<br>Wedding Hall</h3>
+        <a class="text-link magnetic"
+           href="https://maps.app.goo.gl/HuupxwDHksZK64HU8"
+           target="_blank"
+           rel="noopener">
+          OPEN LOCATION <span>↗</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Closing -->
+    <section class="closing section">
+      <div class="closing-orbit orbit-a"></div>
+      <div class="closing-orbit orbit-b"></div>
+
+      <div class="closing-inner reveal">
+        <p class="eyebrow">WE CAN'T WAIT TO CELEBRATE WITH YOU</p>
+        <h3>Yara <span>&</span> Mahmoud</h3>
+        <p>17 • 10 • 2026</p>
+
+        <a class="primary-btn magnetic"
+           href="https://maps.app.goo.gl/HuupxwDHksZK64HU8"
+           target="_blank"
+           rel="noopener">
+          <span>GET DIRECTIONS</span>
+          <span>↗</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
